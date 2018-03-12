@@ -7,19 +7,45 @@
 .regles{
     font-size: 22px;
 }
+.cadre{
+    display: flex;
+    justify-content: center;
+}
 .border {
     border: darkblue solid 4px;
-    justify-content: center;
-    margin-left: 140px;
-    margin-right: 150px;
-    padding-left: 400px;
-    height: 100px;
-    padding-top: 50px;
+    background-color: darkcyan;
+    
+    margin: auto 0;
+width: 400px;
+height: 100px;
+padding: 45px;
 }
 
-.center{
+.proposition {
     text-align: center;
-    justify-content: center;
-    background-color: yellowgreen;
+    background-color: #010e6e;
+    font-size: 22px;
+    color: #f3f3fc;
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.bouton {
+    text-align: center;
+    background-color: #010e6e;
+    font-size: 22px;
+    color: #f3f3fc;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+.result{
+    font-size: 18px;
     color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+p{
+    font-size: 20px;
 }
